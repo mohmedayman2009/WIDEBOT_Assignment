@@ -4,24 +4,6 @@
 
 This project demonstrates how to provision infrastructure for a web application with MongoDB, SQL Server, and Redis using Terraform, Docker, and Kubernetes for WIDEBOT. The setup is designed for a local environment on CentOS 7, allowing you to run and manage your application stack on your local machine.
 
-## Project Structure
-
-
-.
-├── Dockerfile
-├── terraform
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   ├── providers.tf
-│   ├── kubernetes
-│   │   ├── deployment.tf
-│   │   ├── service.tf
-│   │   ├── ingress.tf
-│   └── scripts
-│       ├── install_docker.sh
-│       ├── install_k8s.sh
-└── README.md
 
 
 ### Description of Files and Folders
